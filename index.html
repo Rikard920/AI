@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Simple JS AI Chatbot</title>
+  <style>
+    body { font-family: sans-serif; max-width: 600px; margin: 40px auto; }
+    #chat { border: 1px solid #ccc; padding: 10px; height: 300px; overflow-y: auto; }
+    .msg-user { color: #005bbb; margin: 4px 0; }
+    .msg-bot { color: #222; margin: 4px 0; }
+    #inputRow { margin-top: 10px; display: flex; gap: 8px; }
+    #userInput { flex: 1; padding: 6px; }
+  </style>
+</head>
+<body>
+  <h1>Simple AI Chatbot</h1>
+  <div id="chat"></div>
+
+  <div id="inputRow">
+    <input id="userInput" type="text" placeholder="Say something..." />
+    <button id="sendBtn">Send</button>
+  </div>
+
+  <script src="chatbot.js"></script>
+</body>
+</html>
